@@ -110,6 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void getFields() async {
     //  request fields in server
     try {
+      // Change IP and port depending on your GoLang service IP and port
       final response = await http.get(Uri.parse('http://192.168.0.26:8000/api/v1/getRequiredFields'));
 
       if (response.statusCode == 200) {
