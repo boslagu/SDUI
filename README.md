@@ -3,6 +3,8 @@ Requirements
 2. Flutter and IDE
 3. GoLang
 
+NOTE: Please check IP and ports in GoLang Service placed in main.go. Also check the IP and ports in Flutter App placed in main.dart.
+
 Instruction for backend service
 1. Create a database named as sdui_service
 2. Apply the script below for creating table
