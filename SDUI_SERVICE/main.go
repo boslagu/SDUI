@@ -33,6 +33,8 @@ func main() {
 	// Use endpoints
 	router.SetupPublicRoutes(app)
 
+	// Change the IP into your network IP
+	// Change port if port is taken by other program
 	// Run application
 	err := app.Listen("192.168.0.26:8000")
 	if err != nil {
